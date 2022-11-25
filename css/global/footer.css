@@ -1,0 +1,9 @@
+.footer-bg p {
+  color: var(--cor-10);
+  padding: 30px;
+  text-align: center;
+}
+
+.footer-bg .span-footer {
+  color: var(--cor-4);
+}

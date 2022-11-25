@@ -1,0 +1,52 @@
+.jupter h3,
+.jupter {
+  padding: 20px;
+}
+
+.jupter #jupter {
+  padding: 30px;
+}
+
+.jupter-descricao p {
+  padding: 20px;
+}
+
+.jupter-descricao ul {
+  padding: 32px;
+}
+
+.jupter-descricao li:nth-child(n + 1) {
+  margin-bottom: 8px;
+}
+
+.jupter-descricao li {
+  position: relative;
+}
+
+.jupter-descricao li::before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  left: -18px;
+  top: 5px;
+  background-color: var(--cor-6);
+  border-radius: 50%;
+}
+
+.jupter-descricao .span-jupter {
+  color: var(--cor-6);
+}
+
+#jupter img {
+  animation: rotate 30s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

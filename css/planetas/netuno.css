@@ -1,0 +1,52 @@
+.netuno h3,
+.netuno {
+  padding: 20px;
+}
+
+/* .netuno #netuno {
+  padding: 30px;
+} */
+
+.netuno-descricao p {
+  padding: 20px;
+}
+
+.netuno-descricao ul {
+  padding: 32px;
+}
+
+.netuno-descricao li:nth-child(n + 1) {
+  margin-bottom: 8px;
+}
+
+.netuno-descricao li {
+  position: relative;
+}
+
+.netuno-descricao li::before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  left: -18px;
+  top: 5px;
+  background-color: var(--cor-12);
+  border-radius: 50%;
+}
+
+.netuno-descricao .span-netuno {
+  color: var(--cor-12);
+}
+
+#netuno img {
+  animation: bounceUpDown 1.1s alternate linear infinite;
+}
+
+@keyframes bounceUpDown {
+  from {
+    transform: translate3d(0, -5px, 0);
+  }
+  to {
+    transform: translate3d(0, 15px, 0);
+  }
+}

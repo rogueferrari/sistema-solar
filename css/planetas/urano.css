@@ -1,0 +1,54 @@
+.urano h3,
+.urano {
+  padding: 20px;
+}
+
+/* .urano #urano {
+  padding: 30px;
+} */
+
+.urano-descricao p {
+  padding: 20px;
+}
+
+.urano-descricao ul {
+  padding: 32px;
+}
+
+.urano-descricao li:nth-child(n + 1) {
+  margin-bottom: 8px;
+}
+
+.urano-descricao li {
+  position: relative;
+}
+
+.urano-descricao li::before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  left: -18px;
+  top: 5px;
+  background-color: var(--cor-13);
+  border-radius: 50%;
+}
+
+.urano-descricao .span-urano {
+  color: var(--cor-13);
+}
+
+#urano img {
+  animation: bounceUpDown 1.5s alternate linear infinite;
+  width: 350px;
+  padding: 25px;
+}
+
+@keyframes bounceUpDown {
+  from {
+    transform: translate3d(0, -5px, 0);
+  }
+  to {
+    transform: translate3d(0, 15px, 0);
+  }
+}

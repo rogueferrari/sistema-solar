@@ -1,0 +1,48 @@
+.introducao {
+  position: relative;
+}
+
+.introducao .container img {
+  margin-left: 100px;
+  padding-bottom: 42px;
+}
+
+.galaxia-blue {
+  background: url("../../img/galaxia-fundo-otimizada.jpg") no-repeat;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.galaxia-black {
+  overflow: hidden;
+}
+
+.galaxia-estrelada {
+  background: url("../../img/fundo-preto-estrelas.png");
+}
+
+.galaxia img {
+  margin-left: 50px;
+}
+
+.planeta {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.planeta:first-child {
+  padding-top: 100px;
+}
+
+.planeta:last-child {
+  padding-bottom: 120px;
+}
+
+@media (max-width: 800px) {
+  .planeta {
+    grid-template-columns: 1fr;
+  }
+  .planetas {
+    justify-self: center;
+  }
+}

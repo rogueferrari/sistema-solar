@@ -1,0 +1,27 @@
+@import "./global/global.css";
+
+/*  Header */
+@import "./global/header.css";
+
+/* Utilidades */
+@import "./utilidades/cores.css";
+@import "./utilidades/tipografia.css";
+@import "./utilidades/componentes.css";
+@import "./utilidades/container.css";
+
+/* Introdução */
+@import "./home/introducao.css";
+@import "./home/sol.css";
+
+/* Planetas */
+@import "./planetas/marte.css";
+@import "./planetas/jupter.css";
+@import "./planetas/terra.css";
+@import "./planetas/saturno.css";
+@import "./planetas/mercurio.css";
+@import "./planetas/netuno.css";
+@import "./planetas/urano.css";
+@import "./planetas/sol.css";
+
+/* footer */
+@import "./global/footer.css";

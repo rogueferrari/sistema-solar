@@ -1,0 +1,52 @@
+.terra h3,
+.terra {
+  padding: 20px;
+}
+
+.terra #terra {
+  padding: 30px;
+}
+
+.terra-descricao p {
+  padding: 20px;
+}
+
+.terra-descricao ul {
+  padding: 32px;
+}
+
+.terra-descricao li:nth-child(n + 1) {
+  margin-bottom: 8px;
+}
+
+.terra-descricao li {
+  position: relative;
+}
+
+.terra-descricao li::before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  left: -18px;
+  top: 5px;
+  background-color: var(--cor-7);
+  border-radius: 50%;
+}
+
+.terra-descricao .span-terra {
+  color: var(--cor-7);
+}
+
+#terra img {
+  animation: rotate 30s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

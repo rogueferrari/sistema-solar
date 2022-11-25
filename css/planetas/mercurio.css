@@ -1,0 +1,52 @@
+.mercurio h3,
+.mercurio {
+  padding: 20px;
+}
+
+/* .mercurio #mercurio {
+  padding: 30px;
+} */
+
+.mercurio-descricao p {
+  padding: 20px;
+}
+
+.mercurio-descricao ul {
+  padding: 32px;
+}
+
+.mercurio-descricao li:nth-child(n + 1) {
+  margin-bottom: 8px;
+}
+
+.mercurio-descricao li {
+  position: relative;
+}
+
+.mercurio-descricao li::before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  left: -18px;
+  top: 5px;
+  background-color: var(--cor-11);
+  border-radius: 50%;
+}
+
+.mercurio-descricao .span-mercurio {
+  color: var(--cor-11);
+}
+
+#mercurio img {
+  animation: bounceUpDown 1.2s alternate linear infinite;
+}
+
+@keyframes bounceUpDown {
+  from {
+    transform: translate3d(0, -5px, 0);
+  }
+  to {
+    transform: translate3d(0, 15px, 0);
+  }
+}

@@ -1,0 +1,90 @@
+.galaxia-black {
+  position: relative;
+}
+
+.saturno::before {
+  content: "Saturno ...";
+  font: 400 3.5rem/1.5 sans-serif;
+  letter-spacing: 15px;
+  text-transform: uppercase;
+  position: absolute;
+  color: rgba(209, 182, 94, 0.899);
+  left: 78px;
+  top: 100px;
+}
+
+.saturno-descricao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  padding: 0px 15px 15px 15px;
+  margin-left: 50px;
+}
+
+.saturno-descricao span {
+  color: rgba(209, 182, 94, 0.899);
+}
+
+.saturno-descricao p {
+  line-height: 30px;
+  color: var(--cor-10);
+}
+
+.saturno-descricao ul {
+  line-height: 30px;
+  padding-left: 50px;
+  color: var(--cor-10);
+}
+
+.saturno-descricao li {
+  position: relative;
+}
+
+.saturno-descricao li::before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  left: -18px;
+  top: 9px;
+  background-color: var(--cor-8);
+  border-radius: 50%;
+}
+
+@media (max-width: 1300px) {
+  #saturno img {
+    width: 100%;
+  }
+  .saturno::before {
+    font: 400 2.5rem/1.5 sans-serif;
+    left: 60px;
+    top: 50px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .saturno::before {
+    font: 400 1.5rem/1.5 sans-serif;
+    left: 60px;
+    top: 50px;
+  }
+}
+
+@media (max-width: 800px) {
+  .saturno::before {
+    content: "";
+    font: 400 1.5rem/1.5 sans-serif;
+    left: 280px;
+    top: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .saturno-descricao {
+    grid-template-columns: 1fr;
+  }
+  .saturno-descricao ul {
+    margin-top: 20px;
+    padding-left: 15px;
+  }
+}
