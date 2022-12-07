@@ -18,7 +18,9 @@
 }
 
 .galaxia-estrelada {
-  background: url("../../img/fundo-preto-estrelas.png");
+  background: url("../../img/fundo-preto-estrelas.png") no-repeat;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 .galaxia img {
@@ -40,7 +42,7 @@
 
 @media (max-width: 800px) {
   .planeta {
-    grid-template-columns: 1fr;
+    grid-template-columns: auto;
   }
   .planetas {
     justify-self: center;
@@ -48,6 +50,18 @@
 }
 
 @media (max-width: 450px) {
+  .galaxia-blue {
+    display: block;
+  }
+  .galaxia-estrelada {
+    display: block;
+  }
+  .planeta {
+    display: block;
+  }
+  .terra {
+    padding: 0px;
+  }
   html {
     overflow-x: hidden;
   }

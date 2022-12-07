@@ -3,9 +3,9 @@
   padding: 20px;
 }
 
-/* .urano #urano {
+.urano #urano {
   padding: 30px;
-} */
+}
 
 .urano-descricao p {
   padding: 20px;
@@ -40,8 +40,6 @@
 
 #urano img {
   animation: bounceUpDown 1.5s alternate linear infinite;
-  width: 350px;
-  padding: 25px;
 }
 
 @keyframes bounceUpDown {

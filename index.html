@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script>document.documentElement.className += " js"</script>
   <link rel="stylesheet" href="./css/style.css">
   <title>Sistema Solar</title>
 </head>
@@ -37,8 +39,8 @@
         </div>
       </div>
     </article>
-    <article class="galaxia-blue">
-      <div class=" planeta terra">
+    <article class="galaxia-blue" data-anime="scroll">
+      <div class="planeta terra" data-tab="content" data-anime="show-down">
         <div id="terra" class="planetas">
           <img src="./img/planetas-transparentes/terra-transparente.png" width="300" alt="Planeta Terra">
         </div>
@@ -103,10 +105,10 @@
       </div>
     </article>
 
-    <article class="galaxia-estrelada">
+    <article class="galaxia-blue">
       <div class="planeta mercurio">
         <div id="mercurio" class="planetas">
-          <img src="./img/planetas-transparentes/mercurio-transparente.png" width="400" alt="Planeta Mercúrio">
+          <img src="./img/planetas-transparentes/mercurio-transparente.png" width="300" alt="Planeta Mercúrio">
         </div>
         <div class="mercurio-descricao container">
           <h3 class="font-1-xl cor-10">Mercúrio<span class="span-mercurio"> ...</span></h3>
@@ -121,7 +123,7 @@
       </div>
       <div class="planeta netuno">
         <div id="netuno" class="planetas">
-          <img src="./img/planetas-transparentes/netuno-transparente.png" width="400" alt="Planeta Netuno">
+          <img src="./img/planetas-transparentes/netuno-transparente.png" width="300" alt="Planeta Netuno">
         </div>
         <div class="netuno-descricao container">
           <h3 class="font-1-xl cor-10">Netuno<span class="span-netuno"> ...</span></h3>
@@ -136,7 +138,7 @@
       </div>
       <div class="planeta urano">
         <div id="urano" class="planetas">
-          <img src="./img/planetas-transparentes/urano-transparente.png" width="400" alt="Planeta Urano">
+          <img src="./img/planetas-transparentes/urano-transparente.png" width="280" alt="Planeta Urano">
         </div>
         <div class="urano-descricao container">
           <h3 class="font-1-xl cor-10">Urano<span class="span-urano"> ...</span></h3>
@@ -155,6 +157,8 @@
   <footer class="footer-bg">
     <p>Site desenvolvido por <span class="span-footer">&copy;RodrigoRogue</span>. Todos os direitos reservados.</p>
   </footer>
+
+  <script src="js/script.js"></script>
 </body>
 
 </html>

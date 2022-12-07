@@ -6,12 +6,12 @@
 /* Utilidades */
 @import "./utilidades/cores.css";
 @import "./utilidades/tipografia.css";
-@import "./utilidades/componentes.css";
 @import "./utilidades/container.css";
 
 /* Introdução */
 @import "./home/introducao.css";
 @import "./home/sol.css";
+@import "home/animaScroll.css";
 
 /* Planetas */
 @import "./planetas/marte.css";
