@@ -11,7 +11,7 @@
 /* Introdução */
 @import "./home/introducao.css";
 @import "./home/sol.css";
-@import "home/animaScroll.css";
+@import "./home/animaScroll.css";
 
 /* Planetas */
 @import "./planetas/marte.css";

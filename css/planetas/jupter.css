@@ -1,3 +1,12 @@
+.planeta #jupter {
+  grid-column: 2;
+}
+
+.planeta .jupter-descricao {
+  grid-column: 1;
+  grid-row: 1;
+}
+
 .jupter h3,
 .jupter {
   padding: 20px;
