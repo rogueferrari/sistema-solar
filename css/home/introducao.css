@@ -10,7 +10,7 @@
 .galaxia-blue {
   background: url("../../img/galaxia-fundo-otimizada.jpg") no-repeat;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: auto;
 }
 
 .galaxia-black {
@@ -57,6 +57,7 @@
     display: block;
   }
   .planeta {
+    padding: 0px;
     display: block;
   }
   .terra {
