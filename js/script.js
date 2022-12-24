@@ -16,5 +16,3 @@ function animaScroll() {
 animaScroll();
 
 window.addEventListener("scroll", animaScroll);
-
-console.log(sections);
