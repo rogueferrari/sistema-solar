@@ -8,10 +8,11 @@
 @import "./utilidades/tipografia.css";
 @import "./utilidades/container.css";
 
-/* Introdução */
+/* Home */
 @import "./home/introducao.css";
 @import "./home/sol.css";
 @import "./home/animaScroll.css";
+@import "./home/menuMobile.css";
 
 /* Planetas */
 @import "./planetas/marte.css";

@@ -1,3 +1,6 @@
+import outsideClick from "./modules/outsideClick.js";
+
+//anima elementos ao scroll
 const sections = document.querySelectorAll('[data-anime="scroll"]');
 const windowMetade = window.innerHeight * 0.6;
 
@@ -18,3 +21,23 @@ function animaScroll() {
 animaScroll();
 
 window.addEventListener("scroll", animaScroll);
+
+// adiciona funcionalidade ao menu mobile
+const menuButton = document.querySelector('[data-menu="button"]');
+const menuList = document.querySelector('[data-menu="list"]');
+const eventos = ["click", "touchstart"];
+
+if (menuButton) {
+  function openMenu(event) {
+    menuList.classList.toggle("active");
+    menuButton.classList.toggle("active");
+    // outsideClick(menuList, eventos, () => {
+    //   menuList.classList.remove("active");
+    //   menuButton.classList.remove("active");
+    // });
+  }
+
+  // eventos.forEach((evento) => {
+  // });
+  menuButton.addEventListener("click", openMenu);
+}
