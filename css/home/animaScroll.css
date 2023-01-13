@@ -12,6 +12,22 @@
   animation: show 1.7s forwards;
 }
 
+.js [data-hide="hide-left"].inativo {
+  animation: hide-left 1s forwards;
+}
+
+@keyframes hide-left {
+  from {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    transition: 0.3s;
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(-30px, 0, 0);
+  }
+}
+
 @keyframes show {
   from {
     opacity: 0;
