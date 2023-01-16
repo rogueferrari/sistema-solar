@@ -30,6 +30,7 @@
 .planeta {
   display: grid;
   grid-template-columns: auto 1fr;
+  box-sizing: border-box;
 }
 
 .planeta:first-child {

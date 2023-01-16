@@ -19,6 +19,7 @@
   justify-content: space-between;
   padding: 0px 15px 15px 15px;
   margin-left: 50px;
+  justify-items: center;
 }
 
 .saturno-descricao span {
@@ -86,5 +87,9 @@
   .saturno-descricao ul {
     margin-top: 20px;
     padding-left: 15px;
+  }
+  .saturno-descricao {
+    margin-left: 0px;
+    justify-items: normal;
   }
 }
