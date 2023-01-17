@@ -3,6 +3,10 @@
   padding: 20px;
 }
 
+#urano {
+  overflow: hidden;
+}
+
 .urano #urano {
   padding: 30px;
 }

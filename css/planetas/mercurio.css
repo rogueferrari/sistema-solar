@@ -3,6 +3,10 @@
   padding: 20px;
 }
 
+#mercurio {
+  overflow: hidden;
+}
+
 .mercurio #mercurio {
   padding: 30px;
 }

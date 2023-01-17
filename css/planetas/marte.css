@@ -3,6 +3,10 @@
   padding: 20px;
 }
 
+#marte {
+  overflow: hidden;
+}
+
 .marte #marte {
   padding: 30px;
 }
