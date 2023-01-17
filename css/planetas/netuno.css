@@ -1,15 +1,10 @@
-/* .planeta #netuno {
-  grid-column: 2;
-}
-
-.planeta .netuno-descricao {
-  grid-column: 1;
-  grid-row: 1;
-} */
-
 .netuno h3,
 .netuno {
   padding: 20px;
+}
+
+#netuno {
+  overflow: hidden;
 }
 
 .netuno #netuno {
