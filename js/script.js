@@ -1,4 +1,5 @@
 import outsideClick from "./modules/outsideClick.js";
+import buttonUp from "./modules/buttonUp.js";
 
 //anima elementos ao scroll
 const sections = document.querySelectorAll('[data-anime="scroll"]');
@@ -6,8 +7,8 @@ const windowMetade = window.innerHeight * 0.6;
 
 function animaScroll() {
   sections.forEach((section) => {
-    const sectioTop = section.getBoundingClientRect().top;
-    const isSectionVisible = sectioTop - windowMetade < 0;
+    const sectionTop = section.getBoundingClientRect().top;
+    const isSectionVisible = sectionTop - windowMetade < 0;
     if (isSectionVisible) {
       section.classList.remove("inativo");
       section.classList.add("ativo");
@@ -41,3 +42,6 @@ if (menuButton) {
   // });
   menuButton.addEventListener("click", openMenu);
 }
+
+// ativa o botão de subir a tela para o header
+buttonUp();

@@ -1,0 +1,25 @@
+.button-up {
+  display: none;
+  font-size: 50px;
+  color: aliceblue;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+
+.button-up img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.button-up.active {
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .button-up {
+    right: 20px;
+    bottom: 55px;
+  }
+}
