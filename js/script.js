@@ -30,17 +30,19 @@ const eventos = ['click', 'touchstart'];
 
 if (menuButton) {
   function openMenu(event) {
+    event.stopPropagation();
     menuList.classList.toggle('active');
     menuButton.classList.toggle('active');
-    outsideClick(menuList, eventos, () => {
-      menuList.classList.remove('active');
-      menuButton.classList.remove('active');
-    });
   }
 
-  // eventos.forEach((evento) => {
-  // });
   menuButton.addEventListener('click', openMenu);
+  
+  document.addEventListener('click', (event) => {
+    if (!menuList.contains(event.target) && !menuButton.contains(event.target)) {
+      menuList.classList.remove('active');
+      menuButton.classList.remove('active');
+    }
+  });
 }
 
 // ativa o botão de subir a tela para o header
