@@ -36,9 +36,12 @@ if (menuButton) {
   }
 
   menuButton.addEventListener('click', openMenu);
-  
+
   document.addEventListener('click', (event) => {
-    if (!menuList.contains(event.target) && !menuButton.contains(event.target)) {
+    if (
+      !menuList.contains(event.target) &&
+      !menuButton.contains(event.target)
+    ) {
       menuList.classList.remove('active');
       menuButton.classList.remove('active');
     }
