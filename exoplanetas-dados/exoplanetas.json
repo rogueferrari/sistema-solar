@@ -1,0 +1,32 @@
+[
+  {
+    "nome": "55 Cancri e",
+    "url": "../img/exoplanetas/exoplaneta-55-Cancri-e-final.png",
+    "descricao": "A super-Terra exoplaneta 55 Cancri e, possui uma atmosfera mais espessa que a da Terra, com componentes que podem ser semelhantes aos da atmosfera terrestre, de acordo com um estudo de 2017 que utilizou dados do Telescópio Espacial Spitzer da NASA. Os cientistas afirmam que o planeta pode ser completamente coberto por lava. O planeta está tão próximo de sua estrela que um dos lados está sempre voltado para ela, resultando em um lado diurno e um lado noturno."
+  },
+  {
+    "nome": "Archean Earth",
+    "url": "../img/exoplanetas/exoplaneta-archean-final.png",
+    "descricao": "Para os astrônomos que tentam entender quais planetas distantes podem ter condições habitáveis, o papel da névoa atmosférica tem sido incerto. Quando a névoa se acumulava na atmosfera da Terra Arqueana, o jovem planeta poderia ter se parecido com esta interpretação artística — um ponto laranja pálido. Uma equipe liderada por cientistas do Goddard acredita que essa névoa era autolimitante, resfriando a superfície em cerca de 36 graus Fahrenheit (20 kelvins) — o que não foi suficiente para causar uma glaciação descontrolada. A modelagem da equipe sugere que a névoa atmosférica pode ser útil para identificar exoplanetas semelhantes à Terra que possam ser habitáveis."
+  },
+  {
+    "nome": "GJ 504b",
+    "url": "../img/exoplanetas/exoplaneta-GJ 504b-final.png",
+    "descricao": "Brilhando em um tom de magenta escuro, o exoplaneta recém-descoberto GJ 504b tem cerca de quatro vezes a massa de Júpiter, o que o torna o planeta de menor massa já diretamente fotografado ao redor de uma estrela semelhante ao Sol. Usando dados infravermelhos do Telescópio Subaru, no Havaí, uma equipe internacional de astrônomos conseguiu obter imagens de um planeta gigante ao redor da estrela brilhante GJ 504. Com várias vezes a massa de Júpiter e tamanho semelhante, o novo mundo, chamado GJ 504b, é o planeta de menor massa já detectado ao redor de uma estrela como o Sol usando técnicas de imageamento direto. Se pudéssemos viajar até esse planeta gigante, veríamos um mundo ainda brilhando com o calor de sua formação, com uma cor que lembra a de uma flor de cerejeira escura — um magenta suave."
+  },
+  {
+    "nome": "Kepler 1649c",
+    "url": "../img/exoplanetas/exoplaneta-Kepler-1649c-final.png",
+    "descricao": "O exoplaneta Kepler-1649c é um planeta rochoso que orbita dentro da zona habitável de sua estrela, onde as temperaturas podem permitir a existência de água líquida na superfície. Ele tem um tamanho semelhante ao da Terra e recebe uma quantidade de luz estelar comparável à que a Terra recebe do Sol, o que o torna um candidato promissor para a busca por vida extraterrestre. Kepler-1649c foi descoberto usando dados do Telescópio Espacial Kepler da NASA e é um dos exoplanetas mais semelhantes à Terra já encontrados."
+  },
+  {
+    "nome": "OGLE-2007-BLG-349",
+    "url": "../img/exoplanetas/exoplaneta-OGLE-2007-BLG-349-final.png",
+    "descricao": "O exoplaneta OGLE-2007-BLG-349 é um planeta gigante gasoso que foi descoberto usando a técnica de microlente gravitacional. Ele orbita uma estrela anã vermelha e tem uma massa aproximadamente 80 vezes a massa da Terra e está localizado a 8.000 anos-luz de distância. O planeta, com massa semelhante à de Saturno, o que o torna um dos planetas mais massivos já detectados usando essa técnica. OGLE-2007-BLG-349 é um exemplo de como os astrônomos podem usar diferentes métodos para descobrir e estudar exoplanetas, mesmo aqueles que estão muito distantes ou que orbitam estrelas fracas."
+  },
+  {
+    "nome": "TOI-700c",
+    "url": "../img/exoplanetas/exoplaneta-TOI-700-final.png",
+    "descricao": "O exoplaneta TOI-700c é um planeta rochoso que orbita dentro da zona habitável de sua estrela, onde as temperaturas podem permitir a existência de água líquida na superfície. Ele tem um tamanho semelhante ao da Terra e recebe uma quantidade de luz estelar comparável à que a Terra recebe do Sol, o que o torna um candidato promissor para a busca por vida extraterrestre. TOI-700c foi descoberto usando dados do Telescópio Espacial TESS da NASA e é um dos exoplanetas mais semelhantes à Terra já encontrados."
+  }
+]
